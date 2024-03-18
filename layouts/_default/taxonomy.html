@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{/* Individual Category Pages */}}
+<div class="container mx-auto py-8">
+    <h1>I am Hanan, </h1>
+    <h1 class="text-3xl font-bold mb-4">Category: {{ .Title }}</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {{ range .Pages }}
+        {{ partial "blog/blog-card.html" . }}
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

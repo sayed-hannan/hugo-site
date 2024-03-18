@@ -1,0 +1,15 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[params]
+  author = "Sayed Hanan"
+  bio = "AI ML Engineer | Passionate about Artificial Intelligence and Machine Learning"
+  twitter = "@ihanan"
+  github = "Sayed-hannan"
+
+  # URL pattern for pagination pages
+
+[taxonomies]
+category = "categories"
+
