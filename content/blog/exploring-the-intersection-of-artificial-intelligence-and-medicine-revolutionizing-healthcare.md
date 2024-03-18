@@ -29,7 +29,7 @@ Beyond clinical applications, AI and ML technologies are also reshaping healthca
 
 For instance, natural language processing (NLP) algorithms facilitate the automated extraction and analysis of unstructured clinical data from electronic health records (EHRs), enabling healthcare organizations to derive actionable insights and improve decision-making processes. Additionally, AI-powered chatbots and virtual assistants enhance patient engagement, providing round-the-clock access to healthcare information and support services.
 
-![]()
+![](/img/space.jpg)
 
 While the integration of AI and ML holds tremendous potential for transforming healthcare, it also presents various challenges and ethical considerations. Issues related to data privacy, algorithm bias, regulatory compliance, and patient trust must be addressed to ensure the responsible and ethical deployment of these technologies in clinical practice.
 
