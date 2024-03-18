@@ -1,0 +1,11 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[params]
+  author = "Sayed Hanan"
+
+
+[taxonomies]
+category = "categories"
+

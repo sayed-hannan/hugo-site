@@ -1,0 +1,58 @@
+/* Custom Heading Styles */
+
+/* Customizing <h1> */
+h1 {
+  font-size: 2.5rem; /* Example font size */
+  font-weight: bold;
+  color: #333; /* Example color */
+  /* Add any other custom styles you desire */
+}
+
+/* Customizing <h2> */
+h2 {
+  font-size: 2rem; /* Example font size */
+  font-weight: bold;
+  color: #333; /* Example color */
+  /* Add any other custom styles you desire */
+}
+
+/* Customizing <h3> */
+h3 {
+  font-size: 1.75rem; /* Example font size */
+  font-weight: bold;
+  color: #333; /* Example color */
+  /* Add any other custom styles you desire */
+}
+
+/* Customizing <h4> */
+h4 {
+  font-size: 1.5rem; /* Example font size */
+  font-weight: bold;
+  color: #333; /* Example color */
+  /* Add any other custom styles you desire */
+}
+
+/* Customizing <h5> */
+h5 {
+  font-size: 1.25rem; /* Example font size */
+  font-weight: bold;
+  color: #333; /* Example color */
+  /* Add any other custom styles you desire */
+}
+
+/* Customizing <h6> */
+h6 {
+  font-size: 1rem; /* Example font size */
+  font-weight: bold;
+  color: #bbb; /* Example color */
+  /* Add any other custom styles you desire */
+}
+
+/* Custom Paragraph Styles */
+
+p {
+  font-size: 1rem; /* Example font size */
+  line-height: 1.5; /* Example line height */
+  color: rgb(29, 29, 29); /* Example color */
+  /* Add any other custom styles you desire */
+}

@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<link rel="stylesheet" href="/css/timeline.css">
+
+<section class="bg-blue-400 md:h-96">
+    <div class="mx-auto max-w-screen-xl">
+
+        <div class="flex items-center md:pt-36 justify-center">
+            <h1 class="text-3xl md:text-5xl text-white font-bold">Blog</h1>
+        </div>
+
+        <div>
+            <nav class="pt-36 md:pt-36">
+                <a href="" class="px-4"><i class="fa-solid fa-house"></i></a>
+                <a href="" class="text-white px-4">AI</a>
+                <a href="" class="text-white px-4">Machine Learning</a>
+                <a href="" class="text-white px-4">Deep Learning</a>
+                <a href="" class="text-white px-4">Reinforcement Learning</a>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<div class="timeline-container mx-auto max-w-screen-xl">
+    {{ range .Site.RegularPages }}
+    {{ if eq .Section "blog" }}
+      {{ partial "blog/timeline-card.html" . }}
+    {{ end }}
+  {{ end }}
+</div>
+
+{{ end }}
+
